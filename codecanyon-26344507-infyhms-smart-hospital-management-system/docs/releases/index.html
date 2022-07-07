@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Releases | InfyHMS</title>
+    <meta name="description" content="InfyHMS is to give an easy way to connect with your staff">
+    <link rel="icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/fontawesome.css">
+    <link rel="stylesheet" href="../css/circular-std-font-face.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/css/lightgallery.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.3.2/js/lightgallery.js"></script>
+    <meta name="description" content="InfyHMS is to give an easy way to connect with your staff">
+    <link rel="preload" href="../assets/css/0.styles.c7307597.css" as="style">
+    <link rel="preload" href="../js/styles.js" as="script">
+    <link rel="preload" href="../js/1.js" as="script">
+    <link rel="preload" href="../js/2.js" as="script">
+    <link rel="preload" href="../js/11.js" as="script">
+    <link rel="prefetch" href="../js/10.js">
+    <link rel="prefetch" href="../js/12.js">
+    <link rel="prefetch" href="../js/3.js">
+    <link rel="prefetch" href="../js/4.js">
+    <link rel="prefetch" href="../js/5.js">
+    <link rel="prefetch" href="../js/6.js">
+    <link rel="prefetch" href="../js/7.js">
+    <link rel="prefetch" href="../js/8.js">
+    <link rel="prefetch" href="../js/9.js">
+    <link rel="stylesheet" href="../assets/css/0.styles.c7307597.css">
+</head>
+<body>
+<div id="app" data-server-rendered="true">
+    <div class="theme-container">
+        <header class="navbar">
+            <div class="sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512"
+                     class="icon">
+                    <path fill="currentColor"
+                          d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path>
+                </svg>
+            </div>
+            <a href="../index.html" class="home-link router-link-active"><img src="../images/logo.png" alt="InfyHMS" class="logo">
+                <span class="site-name can-hide">InfyHMS</span></a>
+            <div class="links"><!---->
+                <nav class="nav-links can-hide">
+                    <div class="nav-item"><a href="../index.html" class="nav-link">Home</a></div>
+                    <div class="nav-item"><a href="../docs/index.html" class="nav-link">Docs</a></div>
+                    <div class="nav-item"><a href="../releases/index.html"
+                                             class="nav-link router-link-exact-active router-link-active">Releases</a>
+                    </div>
+                    <div class="nav-item"><a href="../upgrade/index.html" class="nav-link">Upgrade Guide</a></div> <!----></nav>
+            </div>
+        </header>
+        <div class="sidebar-mask"></div>
+        <aside class="sidebar">
+            <nav class="nav-links">
+                <div class="nav-item"><a href="../index.html" class="nav-link">Home</a></div>
+                <div class="nav-item"><a href="../docs/index.html" class="nav-link">Docs</a></div>
+                <div class="nav-item"><a href="../releases/index.html" class="nav-link router-link-exact-active router-link-active">Releases</a>
+                </div>
+                <div class="nav-item"><a href="../upgrade/index.html" class="nav-link">Upgrade Guide</a></div> <!----></nav>
+            <ul class="sidebar-links">
+                <li>
+                    <section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Releases</span> <!---->
+                    </p>
+                        <ul class="sidebar-links sidebar-group-items">
+                            <li><a href="#release-notes" class="sidebar-link">Release Notes</a>
+                                <ul class="sidebar-sub-headers">
+                                    <li class="sidebar-sub-header"><a href="#v9-4-1" class="sidebar-link">v9.4.1</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v9-3-1" class="sidebar-link">v9.4.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v9-3-0" class="sidebar-link">v9.3.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v9-2-0" class="sidebar-link">v9.2.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v9-1-0" class="sidebar-link">v9.1.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v9-0-1" class="sidebar-link">v9.0.1</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v9-0-0" class="sidebar-link">v9.0.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v8-1-0" class="sidebar-link">v8.1.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v8-0-0" class="sidebar-link">v8.0.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v7-0-0" class="sidebar-link">v7.0.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v6-0-0" class="sidebar-link">v6.0.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v5-0-0" class="sidebar-link">v5.0.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v4-0-1" class="sidebar-link">v4.0.1</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v4-0-0" class="sidebar-link">v4.0.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v3-4-1" class="sidebar-link">v3.4.1</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v3-4-0" class="sidebar-link">v3.4.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v3-3-0" class="sidebar-link">v3.3.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v3-2-0" class="sidebar-link">v3.2.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v3-1-0" class="sidebar-link">v3.1.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v3-0-0" class="sidebar-link">v3.0.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v2-0-0" class="sidebar-link">v2.0.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v1-6-0" class="sidebar-link">v1.6.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v1-5-1" class="sidebar-link">v1.5.1</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v1-5-0" class="sidebar-link">v1.5.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v1-4-0" class="sidebar-link">v1.4.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v1-3-1" class="sidebar-link">v1.3.1</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v1-3-0" class="sidebar-link">v1.3.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v1-2-0" class="sidebar-link">v1.2.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v1-1-1" class="sidebar-link">v1.1.1</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v1-1-0" class="sidebar-link">v1.1.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v1-0-0" class="sidebar-link">v1.0.0</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                </li>
+            </ul>
+        </aside>
+        <main class="page">
+            <div class="theme-default-content content__default"><h1 id="releases"><a href="#releases"
+                                                                                     class="header-anchor">#</a>
+                Releases</h1>
+                <p>You can find what changes, features and bug fixed into some specific version here. we are also
+                    providing guide to upgrade from old version to newer version.</p>
+                <h2 id="release-notes"><a href="#release-notes" class="header-anchor">#</a> Release Notes</h2>
+
+                <!-----v9.4.1 section start------>
+                <h3 id="v9-4-1"><a href="#v9-4-1" class="header-anchor">#</a> v9.4.1</h3>
+                <h5 id="enhancements9-4-1"><a href="#enhancements9-4-1" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Export vaccinated patient support added.</li>
+                    <li>Modal UI refactored.</li>
+                </ul>
+                <h5 id="fixes9-4-1"><a href="#fixes9-4-1" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Zoom meeting issue fixed.</li>
+                    <li>Modules enabled / disabled issues fixed.</li>
+                </ul>
+                <!-----v9.4.1 section end------>
+                
+                <!-----v9.4.0 section start------>
+                <h3 id="v9-3-1"><a href="#v9-3-1" class="header-anchor">#</a> v9.4.0</h3>
+                <h5 id="enhancements9-3-1"><a href="#enhancements9-3-1" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Google Captcha support added.</li>
+                </ul>
+                <h5 id="fixes9-3-1"><a href="#fixes9-3-1" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Bugs and Responsiveness fixes.</li>
+                </ul>
+                <!-----v9.3.1 section end------>
+                
+                <!-----v9.3.0 section start------>
+                <h3 id="v9-3-0"><a href="#v9-3-0" class="header-anchor">#</a> v9.3.0</h3>
+                <h5 id="enhancements9-3-0"><a href="#enhancements9-3-0" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Multi-language support added in landing page.</li>
+                </ul>
+                <h5 id="fixes9-3-0"><a href="#fixes9-3-0" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Bugs and Responsiveness fixes.</li>
+                </ul>
+                
+                <!-----v9.2.0 section start------>
+                <h3 id="v9-2-0"><a href="#v9-2-0" class="header-anchor">#</a> v9.2.0</h3>
+                <h5 id="features9-2-0"><a href="#features9-2-0" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Bootstrap 5 Support Added</li>
+                    <li>Brand new UI Integrated</li>
+                    <li>Hospital working hours screen added at front side.</li>
+                    <li>Front cms services screen added at front side.</li>
+                    <li>Add hospital schedule support at admin setting module</li>
+                    <li>Add front cms service support at admin front cms</li>
+                    <li>Add custom cms support at admin front cms module</li>
+                </ul>
+                <h5 id="fixes9-2-0"><a href="#fixes9-2-0" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Bugs and Responsiveness fixes.</li>
+                </ul>
+                <!-----v9.1.0 section end------>
+                
+                <!-----v9.1.0 section start------>
+                <h3 id="v9-1-0"><a href="#v8-1-0" class="header-anchor">#</a> v9.1.0</h3>
+                <h5 id="enhancements9-1-0"><a href="#enhancements9-1-0" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Header notification.</li>
+                    <li>UX Functionality Improvement</li>
+                </ul>
+                <h5 id="fixes9-1-0"><a href="#fixes9-1-0" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Bugs and Responsiveness fixes.</li>
+                </ul>
+                <!-----v9.1.0 section end------>
+                
+                <!-----v9.0.1 section start------>
+                <h3 id="v9-0-1"><a href="#v9-0-1" class="header-anchor">#</a> v9.0.1</h3>
+                <h5 id="fixes9-0-1"><a href="#fixes9-0-1" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Bugs and Responsiveness fixes</li>
+                </ul>
+                
+                <!-----v9.0.0 section start------>
+                <h3 id="v9-0-0"><a href="#v9-0-0" class="header-anchor">#</a> v9.0.0</h3>
+                <h5 id="features9-0-0"><a href="#features9-0-0" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Bootstrap 5 Support Added</li>
+                    <li>Metronic Theme Integrated</li>
+                    <li>Major updates on UI / Layouts</li>
+                </ul>
+                <h5 id="fixes9-0-0"><a href="#fixes9-0-0" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Bugs and Responsiveness fixes</li>
+                </ul>
+                
+                <!-----v8.1.0 section start------>
+                <h3 id="v8-1-0"><a href="#v8-1-0" class="header-anchor">#</a> v8.1.0</h3>
+                <h5 id="features8-1-0"><a href="#features8-1-0" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Add appointment booking support from appointment calendar screen.</li>
+                </ul>
+                <h5 id="enhancements6-1-0"><a href="#enhancements6-1-0" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Remove unwanted seeders for default data.</li>
+                    <li>Minor change on currency format on dashboard widgets.</li>
+                </ul>
+                <h5 id="fixes7-1-0"><a href="#fixes7-1-0" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Bugs and Responsiveness fixes</li>
+                </ul>
+                <!-----v8.1.0 section end------>
+
+                <!-----v8.0.0 section start------>
+                <h3 id="v8-0-0"><a href="#v8-0-0" class="header-anchor">#</a> v8.0.0</h3>
+                <h5 id="features8-0-0"><a href="#features8-0-0" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Appointment booking screen added at front side.</li>
+                    <li>Language change option added for Front side.</li>
+                </ul>
+                <h5 id="enhancements6-0-0"><a href="#enhancements6-0-0" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Upgrade version to Laravel 8.</li>
+                </ul>
+                <h5 id="fixes7-0-0"><a href="#fixes7-0-0" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Bugs and Responsiveness fixes</li>
+                </ul>
+                <!-----v8.0.0 section end------>
+                
+                <!-----Users section start------>
+                <h3 id="v7-0-0"><a href="#v7-0-0" class="header-anchor">#</a> v7.0.0</h3>
+                <h5 id="features7-0-0"><a href="#features7-0-0" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Users Module added</li>
+                    <li>Front Setting Module added</li>
+                    <li>On landing page Contact Us and About Us pages added</li>
+                    <li>On landing page at Footer allow cookie option added</li>
+                </ul>
+                <h5 id="fixes6-0-0"><a href="#fixes6-0-0" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Bugs and Responsiveness fixes</li>
+                </ul>
+                <!--------Users section end------>
+
+                <h3 id="v6-0-0"><a href="#v6-0-0" class="header-anchor">#</a> v6.0.0</h3>
+                <h5 id="features6-0-0"><a href="#features6-0-0" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Covid-19 Vaccination Support Added</li>
+                </ul>
+                
+                <!-- Live Consultation section starts -->
+                    <h3 id="v5-0-0"><a href="#v5-0-0" class="header-anchor">#</a> v5.0.0</h3>
+                    <h5 id="enhancements5-0-0"><a href="#enhancements5-0-0" class="header-anchor">#</a> Features</h5>
+                    <ul>
+                        <li>Live Consultations module added with Zoom video calling support.</li>
+                        <li>Live Meetings module added with Zoom video calling support.</li>
+                    </ul>
+
+                    <h5 id="fixes5-0-0"><a href="#fixes5-0-0" class="header-anchor">#</a> Fixes</h5>
+                    <ul>
+                        <li>Responsive fixes</li>
+                    </ul>
+                <!-- Live Consultation section ends -->               
+                
+                <h3 id="v4-0-1"><a href="#v4-0-0" class="header-anchor">#</a> v4.0.1</h3>
+                <h5 id="enhancements4-0-1"><a href="#enhancements4-0-1" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel package updated.</li>
+                </ul>
+                <h3 id="v4-0-0"><a href="#v3-4-1" class="header-anchor">#</a> v4.0.0</h3> <h5 id="features4-0-0"><a
+                        href="#features" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Notifications alert added</li>
+                </ul>
+                <h5 id="fixes4-0-0"><a href="#fixes4-0-0" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Responsive fixes</li>
+                </ul>
+                <h3 id="v3-4-1"><a href="#v3-4-0" class="header-anchor">#</a> v3.4.1</h3>
+                <h5 id="fixes3-4-1"><a href="#fixes" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Fix controller class not found error in <code>web.php</code></li>
+                </ul>
+                <h3 id="v3-4-0"><a href="#v3-3-0" class="header-anchor">#</a> v3.4.0</h3> <h5 id="features3-4-0"><a
+                        href="#features" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Blood Donations module added with export support for Lab Technician</li>
+                    <li>Blood Issues module added with export support for Lab Technician</li>
+                    <li>Testimonials module added</li>
+                </ul>
+                <h5 id="enhancements3-4-0"><a href="#enhancements" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Add support for doctor to mark appointment as completed</li>
+                    <li>Admin can send sms directly to any number</li>
+                </ul>
+                <h5 id="fixes3-4-0"><a href="#fixes" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Responsive fixes</li>
+                </ul>
+                <h3 id="v3-3-0"><a href="#v3-3-0" class="header-anchor">#</a> v3.3.0</h3> <h5 id="features"><a
+                        href="#features" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Module on/off support added</li>
+                </ul>
+                <h5 id="enhancements"><a href="#enhancements" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel version updated from <code>7.28.3</code> to <code>7.30.1</code></li>
+                    <li>App logo validation to upload logo of 90 * 60</li>
+                </ul>
+                <h5 id="fixes"><a href="#fixes" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Responsive fixes</li>
+                </ul>
+                <h3 id="v3-2-0"><a href="#v3-2-0" class="header-anchor">#</a> v3.2.0</h3> <h5 id="features-2"><a
+                        href="#features-2" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Call Logs module added with export support</li>
+                    <li>Visitors module added with export support</li>
+                    <li>Postal Receive module added with export support</li>
+                    <li>Postal Dispatch module added with export support</li>
+                </ul>
+                <h5 id="enhancements-2"><a href="#enhancements-2" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel version updated from <code>7.26.1</code> to <code>7.28.3</code></li>
+                </ul>
+                <h3 id="v3-1-0"><a href="#v3-1-0" class="header-anchor">#</a> v3.1.0</h3> <h5 id="features-3"><a
+                        href="#features-3" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>OPD (Out Patient Department) Module added
+                        <ul>
+                            <li>Add OPD</li>
+                            <li>Revisit Option</li>
+                            <li>Diagnosis</li>
+                            <li>Timelines</li>
+                        </ul>
+                    </li>
+                </ul>
+                <h5 id="enhancements-3"><a href="#enhancements-3" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel version updated from <code>7.26.1</code> to <code>7.28.3</code></li>
+                </ul>
+                <h3 id="v3-0-0"><a href="#v3-0-0" class="header-anchor">#</a> v3.0.0</h3> <h5 id="features-4"><a
+                        href="#features-4" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>IPD (In Patient Department) Module added
+                        <ul>
+                            <li>Assign Bed</li>
+                            <li>Consultant register</li>
+                            <li>Diagnosis</li>
+                            <li>Timelines</li>
+                            <li>Prescription</li>
+                            <li>Charges</li>
+                            <li>Generate Bill</li>
+                            <li>Pay Bill (For Patient)</li>
+                        </ul>
+                    </li>
+                    <li>Stripe Payment gateway added to pay IPD bills</li>
+                </ul>
+                <h5 id="enhancements-4"><a href="#enhancements-4" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel version updated from <code>7.26.1</code> to <code>7.27.0</code></li>
+                    <li>Fixed responsive issue in calendar view</li>
+                </ul>
+                <h5 id="fixes-2"><a href="#fixes-2" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Fixed: property_value not null error on diagnosis module</li>
+                </ul>
+                <h3 id="v2-0-0"><a href="#v2-0-0" class="header-anchor">#</a> v2.0.0</h3> <h5 id="features-5"><a
+                        href="#features-5" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Inventory Management Added
+                        <ul>
+                            <li>Item Category</li>
+                            <li>Items</li>
+                            <li>Item Stock</li>
+                            <li>Issue an Item</li>
+                        </ul>
+                    </li>
+                </ul>
+                <h5 id="enhancements-5"><a href="#enhancements-5" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel version updated from <code>7.26.1</code> to <code>7.27.0</code></li>
+                </ul>
+                <h3 id="v1-6-0"><a href="#v1-6-0" class="header-anchor">#</a> v1.6.0</h3> <h5 id="features-6"><a
+                        href="#features-6" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Data export support added in all necessary modules
+                        <ol>
+                            <li><p>Admin</p>
+                                <ul>
+                                    <li>Payments, Payment report, Patients, Case handlers, Ambulances, Doctors, Nurses,
+                                        Lab technicians, Receptionist, Pharmacist, Income, Expense
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><p>Patient</p>
+                                <ul>
+                                    <li>Prescription, Appointments</li>
+                                </ul>
+                            </li>
+                            <li><p>Doctor</p>
+                                <ul>
+                                    <li>Bed Assign, Patient Admissions, Schedules, Appointments</li>
+                                </ul>
+                            </li>
+                            <li><p>Nurse</p>
+                                <ul>
+                                    <li>Beds, Bed Assign</li>
+                                </ul>
+                            </li>
+                            <li><p>Receptionist</p>
+                                <ul>
+                                    <li>Appointments, Cases, Doctors, Patient Diagnosis Test, Insurance, Packages,
+                                        Charges, Doctor OPD Charges
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><p>Pharmacist</p>
+                                <ul>
+                                    <li>Medicine Brands, Medicines</li>
+                                </ul>
+                            </li>
+                            <li><p>Accountant</p>
+                                <ul>
+                                    <li>Employee Payrolls, Payments, Services</li>
+                                </ul>
+                            </li>
+                            <li><p>Case Manager</p>
+                                <ul>
+                                    <li>Patient Admissions, Cases, Ambulance Calls</li>
+                                </ul>
+                            </li>
+                            <li><p>Lab Technician</p>
+                                <ul>
+                                    <li>Blood Banks, Blood Donors, Patient Diagnosis Test, Radiology Tests, Pathology
+                                        Tests
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><p>Common module for user roles</p>
+                                <ul>
+                                    <li>My Payrolls</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+                <h5 id="enhancements-6"><a href="#enhancements-6" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel version updated from <code>7.22.4</code> to <code>7.26.1</code></li>
+                    <li>New Currencies <code>KES</code> to <code>CHF</code> support added</li>
+                </ul>
+                <h3 id="v1-5-1"><a href="#v1-5-1" class="header-anchor">#</a> v1.5.1</h3> <h5 id="enhancements-7"><a
+                        href="#enhancements-7" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel version updated from <code>7.20.0</code> to <code>7.22.4</code></li>
+                    <li>Added country code section for phone number inputs where missing</li>
+                    <li>Datatable name and amount alignment changes</li>
+                </ul>
+                <h5 id="fixes-3"><a href="#fixes-3" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Label changes</li>
+                    <li>Validations added for bulk beds</li>
+                    <li>Fixed filter issue on department</li>
+                    <li>Fixed issues in edit invoices/services</li>
+                </ul>
+                <h5 id="enhancements-8"><a href="#enhancements-8" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel version updated from <code>7.16.1</code> to <code>7.20.0</code></li>
+                    <li>Bed status UI is refactored</li>
+                    <li>Allow to add blood bank details in case if deleted</li>
+                    <li>Empty state messages are added into details screen of modules</li>
+                    <li>Doctors should be able to add document for only their patient</li>
+                    <li>Many labels are changed into modules</li>
+                    <li>Do not allow to create cases/death-report with past as compare to patient dob</li>
+                    <li>Validations for <code>years</code> field into ambulance module</li>
+                    <li><code>Note</code> field converted into text area in ambulance module</li>
+                </ul>
+                <h3 id="v1-5-0"><a href="#v1-5-0" class="header-anchor">#</a> v1.5.0</h3> <h5 id="features-7"><a
+                        href="#features-7" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Book Appointments with time slots</li>
+                </ul>
+                <h5 id="enhancements-9"><a href="#enhancements-9" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel version updated from <code>7.16.1</code> to <code>7.20.0</code></li>
+                    <li>Bed status UI is refactored</li>
+                    <li>Allow to add blood bank details in case if deleted</li>
+                    <li>Empty state messages are added into details screen of modules</li>
+                    <li>Doctors should be able to add document for only their patient</li>
+                    <li>Many labels are changed into modules</li>
+                    <li>Do not allow to create cases/death-report with past as compare to patient dob</li>
+                    <li>Validations for <code>years</code> field into ambulance module</li>
+                    <li><code>Note</code> field converted into text area in ambulance module</li>
+                </ul>
+                <h5 id="fixes-4"><a href="#fixes-4" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Fixed: Patient should add document only for their self</li>
+                    <li>Added missing data into details screen</li>
+                    <li>Doctor should be able to select only his cases into birth report</li>
+                    <li>Fixed: in reports do not allow to add duplicate records</li>
+                    <li>Fixed: Appointments are not showing properly in calendar view with Day and week filter</li>
+                </ul>
+                <h3 id="v1-4-0"><a href="#v1-4-0" class="header-anchor">#</a> v1.4.0</h3> <h5 id="features-8"><a
+                        href="#features-8" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Patient Diagnosis categories added</li>
+                    <li>Patient Diagnosis report module added</li>
+                    <li>Bed Availability graphic view added</li>
+                </ul>
+                <h5 id="enhancements-10"><a href="#enhancements-10" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Search support in sidebar menu added</li>
+                    <li>Type column added into Payments module</li>
+                    <li>Managed the empty state message (N/A) in many screens</li>
+                    <li>Added: erase typed text (X) icon to in one click from the search in every search inputs</li>
+                    <li>Show relevant currency icons into currency dropdown in setting screen</li>
+                    <li>Edit bed assign &amp; edit patient admission patient name &amp; case id should be read-only</li>
+                </ul>
+                <h5 id="fixes-5"><a href="#fixes-5" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Make document search working with document type</li>
+                    <li>Fixed: Console errors on charges module while sorting data</li>
+                </ul>
+                <h3 id="v1-3-1"><a href="#v1-3-1" class="header-anchor">#</a> v1.3.1</h3> <h5 id="enhancements-11"><a
+                        href="#enhancements-11" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Do not allow to login user if his/her status is disabled</li>
+                    <li>Laravel version updated from <code>7.15.0</code> to <code>7.16.1</code></li>
+                    <li>Duplicate Query Optimized</li>
+                    <li>PHP Microscope added and code refactored</li>
+                    <li>App performance is optimized</li>
+                </ul>
+                <h5 id="fixes-6"><a href="#fixes-6" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Fixed: Prescription view screen errors when no data is filled</li>
+                </ul>
+                <h3 id="v1-3-0"><a href="#v1-3-0" class="header-anchor">#</a> v1.3.0</h3> <h5 id="features-9"><a
+                        href="#features-9" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Send SMS (using twilio) implemented</li>
+                    <li>Appointment reminder (Email + SMS) before 1 day cron job added</li>
+                </ul>
+                <h5 id="enhancements-12"><a href="#enhancements-12" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel version updated from <code>7.13.0</code> to <code>7.15.0</code></li>
+                    <li>Added country code selection menu for phone number</li>
+                    <li>Icons changes into ambulances menu</li>
+                </ul>
+                <h5 id="fixes-7"><a href="#fixes-7" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Fixed: Currency symbols is not displaying proper in PDF</li>
+                    <li>Fixed: Console errors on add insurance</li>
+                    <li>Fixed: Edit blood donor</li>
+                </ul>
+                <h3 id="v1-2-0"><a href="#v1-2-0" class="header-anchor">#</a> v1.2.0</h3> <h5 id="features-10"><a
+                        href="#features-10" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Expense/Income Chart Added Into Dashboard</li>
+                </ul>
+                <h5 id="enhancements-13"><a href="#enhancements-13" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel version updated from <code>7.12.0</code> to <code>7.13.0</code></li>
+                    <li>Datatable column issues on various screen</li>
+                    <li>Added type filter on accounts screen</li>
+                    <li>Refactor filter of payment reports</li>
+                    <li>Set date validations on payments and advance payments</li>
+                </ul>
+                <h5 id="fixes-8"><a href="#fixes-8" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Fixed console errors in some modules</li>
+                    <li>Forbidden error on packages of receptionist login</li>
+                </ul>
+                <h3 id="v1-1-1"><a href="#v1-1-1" class="header-anchor">#</a> v1.1.1</h3> <h5 id="enhancements-14"><a
+                        href="#enhancements-14" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel version updated from <code>7.11.0</code> to <code>7.12.0</code></li>
+                    <li>Make menus individuals for all login roles</li>
+                </ul>
+                <h5 id="fixes-9"><a href="#fixes-9" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Fixed: Patient admissions modules errors (Discharge date auto select)</li>
+                    <li>Fixed console errors bulk beds</li>
+                    <li>Other minor fixes</li>
+                </ul>
+                <h3 id="v1-1-0"><a href="#v1-1-0" class="header-anchor">#</a> v1.1.0</h3> <h5 id="features-11"><a
+                        href="#features-11" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Pathology Categories added</li>
+                    <li>Pathology Test added</li>
+                    <li>Radiology Categories added</li>
+                    <li>Radiology Test added</li>
+                    <li>Charge Category added</li>
+                    <li>Charges added</li>
+                    <li>OPD Charges added</li>
+                </ul>
+                <h5 id="enhancements-15"><a href="#enhancements-15" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel version updated from <code>7.2.0</code> to <code>7.11.0</code></li>
+                    <li>Notes field added into documents</li>
+                    <li>Show documents list in patient details screen</li>
+                    <li>Added tooltip for calendar tasks</li>
+                    <li>Other UI Fixes</li>
+                </ul>
+                <h5 id="fixes-10"><a href="#fixes-10" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Fixed errors while creating records (patient/doctor/etc..) without date</li>
+                    <li>Fixed console errors in bed-types module</li>
+                    <li>Other minor fixes</li>
+                </ul>
+                <h3 id="v1-0-0"><a href="#v1-0-0" class="header-anchor">#</a> v1.0.0</h3> <h5 id="features-12"><a
+                        href="#features-12" class="header-anchor">#</a> Features</h5>
+                <p>Dashboard</p>
+                <p>Billing</p>
+                <ul>
+                    <li>Accounts</li>
+                    <li>Employee Payrolls</li>
+                    <li>Invoices</li>
+                    <li>Payments</li>
+                    <li>Advanced Payments</li>
+                    <li>Payment Reports</li>
+                    <li>Bills</li>
+                </ul>
+                <p>Beds Managements</p>
+                <ul>
+                    <li>Beds</li>
+                    <li>Bed Types</li>
+                    <li>Bed Assigns</li>
+                </ul>
+                <p>Blood</p>
+                <ul>
+                    <li>Blood Banks</li>
+                    <li>Blood Donors</li>
+                </ul>
+                <p>Cases</p>
+                <ul>
+                    <li>Cases</li>
+                    <li>Case Handlers</li>
+                    <li>Patient Admissions</li>
+                </ul>
+                <p>Documents</p>
+                <ul>
+                    <li>Documents</li>
+                    <li>Document Types</li>
+                </ul>
+                <p>Services</p>
+                <ul>
+                    <li>Insurances</li>
+                    <li>Packages</li>
+                    <li>Services</li>
+                    <li>Ambulance</li>
+                    <li>Ambulance Calls</li>
+                </ul>
+                <p>Doctors</p>
+                <ul>
+                    <li>Doctors</li>
+                    <li>Doctor Departments</li>
+                    <li>Doctor Schedules</li>
+                </ul>
+                <p>Reports</p>
+                <ul>
+                    <li>Birth Reports</li>
+                    <li>Investigation Reports</li>
+                    <li>Death Reports</li>
+                    <li>Operation Reports</li>
+                </ul>
+                <p>Medicines</p>
+                <ul>
+                    <li>Medicine Categories</li>
+                    <li>Medicine Brands</li>
+                    <li>Medicines</li>
+                </ul>
+                <p>Users</p>
+                <ul>
+                    <li>Accountants</li>
+                    <li>Nurses</li>
+                    <li>Patients</li>
+                    <li>Receptionist</li>
+                    <li>Pharmacists</li>
+                    <li>Lab Technicians</li>
+                </ul>
+                <p>Appointments - Single Menu (Includes Calendar)</p>
+                <p>Settings</p>
+                <ul>
+                    <li>Notice Boards</li>
+                    <li>Settings</li>
+                </ul>
+                <p>Mail Service</p></div>
+            <footer class="page-edit"><!----> <!----></footer> <!----> </main>
+    </div>
+    <div class="global-ui"></div>
+</div>
+<script src="../js/styles.js" defer></script>
+<script src="../js/2.js" defer></script>
+<script src="../js/11.js" defer></script>
+</body>
+</html>
